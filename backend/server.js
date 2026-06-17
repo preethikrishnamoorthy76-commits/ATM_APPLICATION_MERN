@@ -12,7 +12,7 @@ const app = express();
 
 app.use(cors(
     {
-        origin: "https://atm-application-mern-p2tg.vercel.app/",
+        origin: "https://atm-application-mern-p2tg.vercel.app",
     }
 ));
 app.use(express.json());
